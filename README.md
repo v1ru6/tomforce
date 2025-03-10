@@ -2,8 +2,12 @@
 
 # Usage
 
-`git clone https://github.com/v1ru6/tomforce.git`  
-`pip install termcolor`  
+```bash
+git clone https://github.com/v1ru6/tomforce.git
+```
+```bash
+pip install termcolor
+```
 `python3 tomforce.py`  
 
 ```bash
