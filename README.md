@@ -2,12 +2,12 @@
 
 # Usage
 
-git clone https://github.com/v1ru6/tomforce.git
-pip install termcolor
+git clone https://github.com/v1ru6/tomforce.git  
+pip install termcolor  
 
-python3 tomforce.py
+python3 tomforce.py  
 
-options:
+options:  
 
 -h, --help                              show this help message and exit  
 -U URL, --url URL                       Base URL to the Tomcat page (e.g., http://target.com)  
