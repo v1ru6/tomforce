@@ -1,10 +1,11 @@
-# Dependencies
-
-pip install termcolor
+# Tomcat Manager or Host-Manager Credential Bruteforcing
 
 # Usage
 
-Tomcat Manager or Host-Manager Credential Bruteforcing
+git clone https://github.com/v1ru6/tomforce.git
+pip install termcolor
+
+python3 tomforce.py
 
 options:
 
