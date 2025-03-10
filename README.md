@@ -1,4 +1,4 @@
-# Tomcat Manager or Host-Manager Credential Bruteforcing
+# Tomcat Manager Credential Bruteforcing
 
 # Usage
 
