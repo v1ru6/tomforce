@@ -6,9 +6,7 @@
 git clone https://github.com/v1ru6/tomforce.git
 pip install termcolor
 python3 tomforce.py
-```
 
-```bash
 options:  
 
 -h, --help                              show this help message and exit
