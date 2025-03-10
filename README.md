@@ -1,3 +1,7 @@
+# Dependencies
+
+pip install termcolor
+
 # Usage
 
 Tomcat Manager or Host-Manager Credential Bruteforcing
