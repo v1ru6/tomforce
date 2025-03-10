@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/v1ru6/tomforce.git
-pip install termcolor
+pip3 install termcolor
 ```
 ```bash
 python3 tomforce.py
